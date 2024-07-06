@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .span-tag {
+        @apply text-black text-xs md:text-[16px] border rounded-full border-red-300 py-0.5 px-1.5  transition-all cursor-pointer whitespace-nowrap;
+    }
+}
